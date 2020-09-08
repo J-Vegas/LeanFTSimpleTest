@@ -1,0 +1,1244 @@
+<Results>
+    <GeneralInfo>
+        <Name/>
+        <RunStartTime>2020-09-08 13:47:00</RunStartTime>
+        <Timezone>RTZ 2 (зима)</Timezone>
+        <OrchestrationToolName>JUnit</OrchestrationToolName>
+        <OrchestrationToolVersion/>
+        <ReportTitle>LeanFT Report</ReportTitle>
+    </GeneralInfo>
+    <ReportNode type="Run">
+        <Data>
+            <Name>Run Results</Name>
+            <Description><![CDATA[ ]]></Description>
+            <StartTime>2020-09-08 13:47:00</StartTime>
+            <Result>Passed</Result>
+            <Links/>
+            <Duration>48</Duration>
+            <Extension>
+                <Any>
+                    <IconKey>Run</IconKey>
+                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                </Any>
+            </Extension>
+            <Environment>
+                <OSInfo><![CDATA[Microsoft Windows NT 6.2.9200.0]]></OSInfo>
+                <HostName><![CDATA[DESKTOP-5MCVVDI]]></HostName>
+                <NumberOfCores>8</NumberOfCores>
+                <CpuInfo/>
+                <TotalMemory>16281</TotalMemory>
+                <Locale><![CDATA[ru-RU]]></Locale>
+                <Timezone><![CDATA[RTZ 2 (зима)]]></Timezone>
+                <User>User</User>
+            </Environment>
+            <TestedApplication/>
+            <ToolName>LeanFT</ToolName>
+            <ToolVersion><![CDATA[14.0]]></ToolVersion>
+        </Data>
+        <ReportNode type="Suite">
+            <Data>
+                <Name>Default Suite</Name>
+                <Description/>
+                <StartTime>2020-09-08 13:47:00</StartTime>
+                <Result>Passed</Result>
+                <Links/>
+                <Duration>48</Duration>
+                <Extension>
+                    <Any>
+                        <IconKey>Suite</IconKey>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                    </Any>
+                </Extension>
+            </Data>
+            <ReportNode type="TestContainer">
+                <Data>
+                    <Name>LeanFTv3</Name>
+                    <Description/>
+                    <StartTime>2020-09-08 13:47:00</StartTime>
+                    <Result>Passed</Result>
+                    <Links/>
+                    <Duration>48</Duration>
+                    <Extension>
+                        <Any>
+                            <IconKey>TestContainer</IconKey>
+                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                        </Any>
+                    </Extension>
+                </Data>
+                <ReportNode type="Package">
+                    <Data>
+                        <Name><![CDATA[com.company]]></Name>
+                        <Description><![CDATA[Version: N/A]]></Description>
+                        <StartTime>2020-09-08 13:47:00</StartTime>
+                        <Result>Passed</Result>
+                        <Links/>
+                        <Duration>48</Duration>
+                        <Extension>
+                            <Any>
+                                <IconKey>Package</IconKey>
+                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                            </Any>
+                        </Extension>
+                    </Data>
+                    <ReportNode type="Class">
+                        <Data>
+                            <Name><![CDATA[com.company.LeanFtTest]]></Name>
+                            <Description/>
+                            <StartTime>2020-09-08 13:47:00</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>48</Duration>
+                            <Extension>
+                                <Any>
+                                    <IconKey>Class</IconKey>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                </Any>
+                            </Extension>
+                        </Data>
+                        <ReportNode type="Step">
+                            <Data>
+                                <Name><![CDATA[I accept the risk and want to run this application..click]]></Name>
+                                <Description/>
+                                <StartTime>2020-09-08 13:47:06</StartTime>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Duration>1</Duration>
+                                <Extension>
+                                    <Any>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Java.Dialog</Type>
+                                                    <Name><![CDATA[Security Warning]]></Name>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Java.CheckBox</Type>
+                                                    <Name><![CDATA[I accept the risk and want to run this application.]]></Name>
+                                                </Object>
+                                            </Path>
+                                            <Operation>click</Operation>
+                                            <OperationData/>
+                                            <Properties>
+                                                <Property>
+                                                    <Name><![CDATA[attachedText]]></Name>
+                                                    <Value><![CDATA[I accept the risk and want to run this application.]]></Value>
+                                                </Property>
+                                            </Properties>
+                                        </TestObject>
+                                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                                        <IconKey>CheckBox</IconKey>
+                                        <CustomUIElements>
+                                            <DescriptionLabel>Data</DescriptionLabel>
+                                        </CustomUIElements>
+                                        <Descriptive>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Java.Dialog</Type>
+                                                        <Name><![CDATA[Security Warning]]></Name>
+                                                        <IconKey>Dialog</IconKey>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.CheckBox</Type>
+                                                        <Name><![CDATA[I accept the risk and want to run this application.]]></Name>
+                                                        <IconKey>CheckBox</IconKey>
+                                                    </Object>
+                                                </Path>
+                                            </TestObject>
+                                        </Descriptive>
+                                        <HideContextInfo>true</HideContextInfo>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                        </ReportNode>
+                        <ReportNode type="Step">
+                            <Data>
+                                <Name><![CDATA[Run.click]]></Name>
+                                <Description/>
+                                <StartTime>2020-09-08 13:47:06</StartTime>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Duration>1</Duration>
+                                <Extension>
+                                    <Any>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Java.Dialog</Type>
+                                                    <Name><![CDATA[Security Warning]]></Name>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Java.Button</Type>
+                                                    <Name><![CDATA[Run]]></Name>
+                                                </Object>
+                                            </Path>
+                                            <Operation>click</Operation>
+                                            <OperationData/>
+                                            <Properties>
+                                                <Property>
+                                                    <Name><![CDATA[label]]></Name>
+                                                    <Value><![CDATA[Run]]></Value>
+                                                </Property>
+                                            </Properties>
+                                        </TestObject>
+                                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                                        <IconKey>Button</IconKey>
+                                        <CustomUIElements>
+                                            <DescriptionLabel>Data</DescriptionLabel>
+                                        </CustomUIElements>
+                                        <Descriptive>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Java.Dialog</Type>
+                                                        <Name><![CDATA[Security Warning]]></Name>
+                                                        <IconKey>Dialog</IconKey>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Button</Type>
+                                                        <Name><![CDATA[Run]]></Name>
+                                                        <IconKey>Button</IconKey>
+                                                    </Object>
+                                                </Path>
+                                            </TestObject>
+                                        </Descriptive>
+                                        <HideContextInfo>true</HideContextInfo>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                        </ReportNode>
+                        <ReportNode type="Test">
+                            <Data>
+                                <Name>test</Name>
+                                <Description/>
+                                <StartTime>2020-09-08 13:47:06</StartTime>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Duration>40</Duration>
+                                <Extension>
+                                    <Any>
+                                        <IconKey>Test</IconKey>
+                                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                            <ReportNode type="Step">
+                                <Data>
+                                    <Name><![CDATA[Пароль.setText]]></Name>
+                                    <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;Anna12&quot;</td></tr></table>]]></Description>
+                                    <StartTime>2020-09-08 13:47:06</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>8</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Java.Window</Type>
+                                                        <Name><![CDATA[АСУ ЕИРЦ: ЦАО-Т (Тест ЭМ) Веблоджик]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Dialog</Type>
+                                                        <Name><![CDATA[Подключение к АСУ ЕИРЦ]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Editor</Type>
+                                                        <Name><![CDATA[Пароль]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation>setText</Operation>
+                                                <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;Anna12&quot;</td></tr></table>]]></OperationData>
+                                                <Properties>
+                                                    <Property>
+                                                        <Name><![CDATA[attachedText]]></Name>
+                                                        <Value><![CDATA[Пароль]]></Value>
+                                                    </Property>
+                                                </Properties>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>Editor</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <Descriptive>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Java.Window</Type>
+                                                            <Name><![CDATA[АСУ ЕИРЦ: ЦАО-Т (Тест ЭМ) Веблоджик]]></Name>
+                                                            <IconKey>Window</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.Dialog</Type>
+                                                            <Name><![CDATA[Подключение к АСУ ЕИРЦ]]></Name>
+                                                            <IconKey>Dialog</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.Editor</Type>
+                                                            <Name><![CDATA[Пароль]]></Name>
+                                                            <IconKey>Editor</IconKey>
+                                                        </Object>
+                                                    </Path>
+                                                </TestObject>
+                                            </Descriptive>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                            </ReportNode>
+                            <ReportNode type="Step">
+                                <Data>
+                                    <Name><![CDATA[Подключиться.click]]></Name>
+                                    <Description/>
+                                    <StartTime>2020-09-08 13:47:14</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>7</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Java.Window</Type>
+                                                        <Name><![CDATA[АСУ ЕИРЦ: ЦАО-Т (Тест ЭМ) Веблоджик]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Dialog</Type>
+                                                        <Name><![CDATA[Подключение к АСУ ЕИРЦ]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Button</Type>
+                                                        <Name><![CDATA[Подключиться]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation>click</Operation>
+                                                <OperationData/>
+                                                <Properties>
+                                                    <Property>
+                                                        <Name><![CDATA[label]]></Name>
+                                                        <Value><![CDATA[Подключиться]]></Value>
+                                                    </Property>
+                                                </Properties>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>Button</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <Descriptive>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Java.Window</Type>
+                                                            <Name><![CDATA[АСУ ЕИРЦ: ЦАО-Т (Тест ЭМ) Веблоджик]]></Name>
+                                                            <IconKey>Window</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.Dialog</Type>
+                                                            <Name><![CDATA[Подключение к АСУ ЕИРЦ]]></Name>
+                                                            <IconKey>Dialog</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.Button</Type>
+                                                            <Name><![CDATA[Подключиться]]></Name>
+                                                            <IconKey>Button</IconKey>
+                                                        </Object>
+                                                    </Path>
+                                                </TestObject>
+                                            </Descriptive>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                            </ReportNode>
+                            <ReportNode type="Step">
+                                <Data>
+                                    <Name><![CDATA[JavaMenu.selectSubMenu]]></Name>
+                                    <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;&#1060;&#1080;&#1079;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077; &#1083;&#1080;&#1094;&#1072;&quot;</td></tr></table>]]></Description>
+                                    <StartTime>2020-09-08 13:47:20</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>9</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Java.Window</Type>
+                                                        <Name><![CDATA[АСУ ЕИРЦ: ЦАО-Т (Тест ЭМ) Веблоджик (Основной сервер)]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Menu</Type>
+                                                        <Name><![CDATA[Модули]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Menu</Type>
+                                                        <Name><![CDATA[JavaMenu]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation>selectSubMenu</Operation>
+                                                <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;&#1060;&#1080;&#1079;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077; &#1083;&#1080;&#1094;&#1072;&quot;</td></tr></table>]]></OperationData>
+                                                <Properties>
+                                                    <Property>
+                                                        <Name><![CDATA[label]]></Name>
+                                                        <Value><![CDATA[Модули]]></Value>
+                                                    </Property>
+                                                </Properties>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>Menu</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <Descriptive>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Java.Window</Type>
+                                                            <Name><![CDATA[АСУ ЕИРЦ: ЦАО-Т (Тест ЭМ) Веблоджик (Основной сервер)]]></Name>
+                                                            <IconKey>Window</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.Menu</Type>
+                                                            <Name><![CDATA[Модули]]></Name>
+                                                            <IconKey>Menu</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.Menu</Type>
+                                                            <Name><![CDATA[JavaMenu]]></Name>
+                                                            <IconKey>Menu</IconKey>
+                                                        </Object>
+                                                    </Path>
+                                                </TestObject>
+                                            </Descriptive>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                            </ReportNode>
+                            <ReportNode type="Step">
+                                <Data>
+                                    <Name><![CDATA[Улица.select]]></Name>
+                                    <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;&#1040;&#1088;&#1073;&#1072;&#1090; &#1091;&#1083;.&quot;</td></tr></table>]]></Description>
+                                    <StartTime>2020-09-08 13:47:29</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>2</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Java.Window</Type>
+                                                        <Name><![CDATA[Физические лица]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.List</Type>
+                                                        <Name><![CDATA[Улица]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation>select</Operation>
+                                                <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;&#1040;&#1088;&#1073;&#1072;&#1090; &#1091;&#1083;.&quot;</td></tr></table>]]></OperationData>
+                                                <Properties>
+                                                    <Property>
+                                                        <Name><![CDATA[attachedText]]></Name>
+                                                        <Value><![CDATA[Улица]]></Value>
+                                                    </Property>
+                                                </Properties>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>List</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <Descriptive>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Java.Window</Type>
+                                                            <Name><![CDATA[Физические лица]]></Name>
+                                                            <IconKey>Window</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.List</Type>
+                                                            <Name><![CDATA[Улица]]></Name>
+                                                            <IconKey>List</IconKey>
+                                                        </Object>
+                                                    </Path>
+                                                </TestObject>
+                                            </Descriptive>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                            </ReportNode>
+                            <ReportNode type="Step">
+                                <Data>
+                                    <Name><![CDATA[Дом.select]]></Name>
+                                    <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;19&quot;</td></tr></table>]]></Description>
+                                    <StartTime>2020-09-08 13:47:30</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>1</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Java.Window</Type>
+                                                        <Name><![CDATA[Физические лица]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.List</Type>
+                                                        <Name><![CDATA[Дом]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation>select</Operation>
+                                                <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;19&quot;</td></tr></table>]]></OperationData>
+                                                <Properties>
+                                                    <Property>
+                                                        <Name><![CDATA[attachedText]]></Name>
+                                                        <Value><![CDATA[Дом]]></Value>
+                                                    </Property>
+                                                </Properties>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>List</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <Descriptive>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Java.Window</Type>
+                                                            <Name><![CDATA[Физические лица]]></Name>
+                                                            <IconKey>Window</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.List</Type>
+                                                            <Name><![CDATA[Дом]]></Name>
+                                                            <IconKey>List</IconKey>
+                                                        </Object>
+                                                    </Path>
+                                                </TestObject>
+                                            </Descriptive>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                            </ReportNode>
+                            <ReportNode type="Step">
+                                <Data>
+                                    <Name><![CDATA[Квартира.select]]></Name>
+                                    <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;10&quot;</td></tr></table>]]></Description>
+                                    <StartTime>2020-09-08 13:47:30</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>1</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Java.Window</Type>
+                                                        <Name><![CDATA[Физические лица]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.List</Type>
+                                                        <Name><![CDATA[Квартира]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation>select</Operation>
+                                                <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;10&quot;</td></tr></table>]]></OperationData>
+                                                <Properties>
+                                                    <Property>
+                                                        <Name><![CDATA[attachedText]]></Name>
+                                                        <Value><![CDATA[Квартира]]></Value>
+                                                    </Property>
+                                                </Properties>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>List</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <Descriptive>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Java.Window</Type>
+                                                            <Name><![CDATA[Физические лица]]></Name>
+                                                            <IconKey>Window</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.List</Type>
+                                                            <Name><![CDATA[Квартира]]></Name>
+                                                            <IconKey>List</IconKey>
+                                                        </Object>
+                                                    </Path>
+                                                </TestObject>
+                                            </Descriptive>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                            </ReportNode>
+                            <ReportNode type="Step">
+                                <Data>
+                                    <Name><![CDATA[Картотека.click]]></Name>
+                                    <Description/>
+                                    <StartTime>2020-09-08 13:47:30</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>2</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Java.Window</Type>
+                                                        <Name><![CDATA[Физические лица]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Button</Type>
+                                                        <Name><![CDATA[Картотека]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation>click</Operation>
+                                                <OperationData/>
+                                                <Properties>
+                                                    <Property>
+                                                        <Name><![CDATA[label]]></Name>
+                                                        <Value><![CDATA[Картотека]]></Value>
+                                                    </Property>
+                                                </Properties>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>Button</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <Descriptive>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Java.Window</Type>
+                                                            <Name><![CDATA[Физические лица]]></Name>
+                                                            <IconKey>Window</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.Button</Type>
+                                                            <Name><![CDATA[Картотека]]></Name>
+                                                            <IconKey>Button</IconKey>
+                                                        </Object>
+                                                    </Path>
+                                                </TestObject>
+                                            </Descriptive>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                            </ReportNode>
+                            <ReportNode type="Step">
+                                <Data>
+                                    <Name><![CDATA[Картотека.selectRows]]></Name>
+                                    <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>1</td></tr></table>]]></Description>
+                                    <StartTime>2020-09-08 13:47:37</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>3</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Java.Window</Type>
+                                                        <Name><![CDATA[Физические лица]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Table</Type>
+                                                        <Name><![CDATA[Картотека]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation>selectRows</Operation>
+                                                <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>1</td></tr></table>]]></OperationData>
+                                                <Properties/>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>Table</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <Descriptive>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Java.Window</Type>
+                                                            <Name><![CDATA[Физические лица]]></Name>
+                                                            <IconKey>Window</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.Table</Type>
+                                                            <Name><![CDATA[Картотека]]></Name>
+                                                            <IconKey>Table</IconKey>
+                                                        </Object>
+                                                    </Path>
+                                                </TestObject>
+                                            </Descriptive>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                            </ReportNode>
+                            <ReportNode type="Step">
+                                <Data>
+                                    <Name><![CDATA[Корректировать.click]]></Name>
+                                    <Description/>
+                                    <StartTime>2020-09-08 13:47:39</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>3</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Java.Window</Type>
+                                                        <Name><![CDATA[Физические лица]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Button</Type>
+                                                        <Name><![CDATA[Корректировать]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation>click</Operation>
+                                                <OperationData/>
+                                                <Properties>
+                                                    <Property>
+                                                        <Name><![CDATA[label]]></Name>
+                                                        <Value><![CDATA[Корректировать]]></Value>
+                                                    </Property>
+                                                </Properties>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>Button</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <Descriptive>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Java.Window</Type>
+                                                            <Name><![CDATA[Физические лица]]></Name>
+                                                            <IconKey>Window</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.Button</Type>
+                                                            <Name><![CDATA[Корректировать]]></Name>
+                                                            <IconKey>Button</IconKey>
+                                                        </Object>
+                                                    </Path>
+                                                </TestObject>
+                                            </Descriptive>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                            </ReportNode>
+                            <ReportNode type="Step">
+                                <Data>
+                                    <Name><![CDATA[Область (край, республика).setText]]></Name>
+                                    <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;&#1040;&#1051;&#1058;&#1040;&#1049;&quot;</td></tr></table>]]></Description>
+                                    <StartTime>2020-09-08 13:47:42</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>1</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Java.Window</Type>
+                                                        <Name><![CDATA[Физические лица]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Dialog</Type>
+                                                        <Name><![CDATA[Карточка регистрации]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Editor</Type>
+                                                        <Name><![CDATA[Область (край, республика)]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation>setText</Operation>
+                                                <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;&#1040;&#1051;&#1058;&#1040;&#1049;&quot;</td></tr></table>]]></OperationData>
+                                                <Properties>
+                                                    <Property>
+                                                        <Name><![CDATA[attachedText]]></Name>
+                                                        <Value><![CDATA[Область (край, республика)]]></Value>
+                                                    </Property>
+                                                    <Property>
+                                                        <Name><![CDATA[nativeClass]]></Name>
+                                                        <Value><![CDATA[javax.swing.JTextField]]></Value>
+                                                    </Property>
+                                                    <Property>
+                                                        <Name><![CDATA[index]]></Name>
+                                                        <Value><![CDATA[0]]></Value>
+                                                    </Property>
+                                                </Properties>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>Editor</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <Descriptive>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Java.Window</Type>
+                                                            <Name><![CDATA[Физические лица]]></Name>
+                                                            <IconKey>Window</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.Dialog</Type>
+                                                            <Name><![CDATA[Карточка регистрации]]></Name>
+                                                            <IconKey>Dialog</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.Editor</Type>
+                                                            <Name><![CDATA[Область (край, республика)]]></Name>
+                                                            <IconKey>Editor</IconKey>
+                                                        </Object>
+                                                    </Path>
+                                                </TestObject>
+                                            </Descriptive>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                            </ReportNode>
+                            <ReportNode type="Step">
+                                <Data>
+                                    <Name><![CDATA[Район.setText]]></Name>
+                                    <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;&#1051;&#1045;&#1053;&#1048;&#1053;&#1057;&#1050;&#1048;&#1049;&quot;</td></tr></table>]]></Description>
+                                    <StartTime>2020-09-08 13:47:42</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>1</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Java.Window</Type>
+                                                        <Name><![CDATA[Физические лица]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Dialog</Type>
+                                                        <Name><![CDATA[Карточка регистрации]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Editor</Type>
+                                                        <Name><![CDATA[Район]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation>setText</Operation>
+                                                <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;&#1051;&#1045;&#1053;&#1048;&#1053;&#1057;&#1050;&#1048;&#1049;&quot;</td></tr></table>]]></OperationData>
+                                                <Properties>
+                                                    <Property>
+                                                        <Name><![CDATA[attachedText]]></Name>
+                                                        <Value><![CDATA[Район]]></Value>
+                                                    </Property>
+                                                    <Property>
+                                                        <Name><![CDATA[nativeClass]]></Name>
+                                                        <Value><![CDATA[javax.swing.JTextField]]></Value>
+                                                    </Property>
+                                                    <Property>
+                                                        <Name><![CDATA[index]]></Name>
+                                                        <Value><![CDATA[0]]></Value>
+                                                    </Property>
+                                                </Properties>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>Editor</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <Descriptive>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Java.Window</Type>
+                                                            <Name><![CDATA[Физические лица]]></Name>
+                                                            <IconKey>Window</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.Dialog</Type>
+                                                            <Name><![CDATA[Карточка регистрации]]></Name>
+                                                            <IconKey>Dialog</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.Editor</Type>
+                                                            <Name><![CDATA[Район]]></Name>
+                                                            <IconKey>Editor</IconKey>
+                                                        </Object>
+                                                    </Path>
+                                                </TestObject>
+                                            </Descriptive>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                            </ReportNode>
+                            <ReportNode type="Step">
+                                <Data>
+                                    <Name><![CDATA[Село, деревня.setText]]></Name>
+                                    <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;&#1042;&#1045;&#1057;&#1045;&#1051;&#1054;&#1045;&quot;</td></tr></table>]]></Description>
+                                    <StartTime>2020-09-08 13:47:42</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>1</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Java.Window</Type>
+                                                        <Name><![CDATA[Физические лица]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Dialog</Type>
+                                                        <Name><![CDATA[Карточка регистрации]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Editor</Type>
+                                                        <Name><![CDATA[Село, деревня]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation>setText</Operation>
+                                                <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;&#1042;&#1045;&#1057;&#1045;&#1051;&#1054;&#1045;&quot;</td></tr></table>]]></OperationData>
+                                                <Properties>
+                                                    <Property>
+                                                        <Name><![CDATA[attachedText]]></Name>
+                                                        <Value><![CDATA[Село, деревня]]></Value>
+                                                    </Property>
+                                                    <Property>
+                                                        <Name><![CDATA[nativeClass]]></Name>
+                                                        <Value><![CDATA[javax.swing.JTextField]]></Value>
+                                                    </Property>
+                                                    <Property>
+                                                        <Name><![CDATA[index]]></Name>
+                                                        <Value><![CDATA[0]]></Value>
+                                                    </Property>
+                                                </Properties>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>Editor</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <Descriptive>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Java.Window</Type>
+                                                            <Name><![CDATA[Физические лица]]></Name>
+                                                            <IconKey>Window</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.Dialog</Type>
+                                                            <Name><![CDATA[Карточка регистрации]]></Name>
+                                                            <IconKey>Dialog</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.Editor</Type>
+                                                            <Name><![CDATA[Село, деревня]]></Name>
+                                                            <IconKey>Editor</IconKey>
+                                                        </Object>
+                                                    </Path>
+                                                </TestObject>
+                                            </Descriptive>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                            </ReportNode>
+                            <ReportNode type="Step">
+                                <Data>
+                                    <Name><![CDATA[Прочее.setText]]></Name>
+                                    <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;&#1058;&#1045;&#1041;&#1045; &#1069;&#1058;&#1054; &#1057;&#1053;&#1048;&#1058;&#1057;&#1071;!&quot;</td></tr></table>]]></Description>
+                                    <StartTime>2020-09-08 13:47:42</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>1</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Java.Window</Type>
+                                                        <Name><![CDATA[Физические лица]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Dialog</Type>
+                                                        <Name><![CDATA[Карточка регистрации]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Editor</Type>
+                                                        <Name><![CDATA[Прочее]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation>setText</Operation>
+                                                <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;&#1058;&#1045;&#1041;&#1045; &#1069;&#1058;&#1054; &#1057;&#1053;&#1048;&#1058;&#1057;&#1071;!&quot;</td></tr></table>]]></OperationData>
+                                                <Properties>
+                                                    <Property>
+                                                        <Name><![CDATA[attachedText]]></Name>
+                                                        <Value><![CDATA[Прочее]]></Value>
+                                                    </Property>
+                                                    <Property>
+                                                        <Name><![CDATA[nativeClass]]></Name>
+                                                        <Value><![CDATA[javax.swing.JTextField]]></Value>
+                                                    </Property>
+                                                    <Property>
+                                                        <Name><![CDATA[index]]></Name>
+                                                        <Value><![CDATA[0]]></Value>
+                                                    </Property>
+                                                </Properties>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>Editor</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <Descriptive>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Java.Window</Type>
+                                                            <Name><![CDATA[Физические лица]]></Name>
+                                                            <IconKey>Window</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.Dialog</Type>
+                                                            <Name><![CDATA[Карточка регистрации]]></Name>
+                                                            <IconKey>Dialog</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.Editor</Type>
+                                                            <Name><![CDATA[Прочее]]></Name>
+                                                            <IconKey>Editor</IconKey>
+                                                        </Object>
+                                                    </Path>
+                                                </TestObject>
+                                            </Descriptive>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                            </ReportNode>
+                            <ReportNode type="Step">
+                                <Data>
+                                    <Name><![CDATA[Выход.click]]></Name>
+                                    <Description/>
+                                    <StartTime>2020-09-08 13:47:45</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>1</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Java.Window</Type>
+                                                        <Name><![CDATA[Физические лица]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Dialog</Type>
+                                                        <Name><![CDATA[Карточка регистрации]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Button</Type>
+                                                        <Name><![CDATA[Выход]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation>click</Operation>
+                                                <OperationData/>
+                                                <Properties>
+                                                    <Property>
+                                                        <Name><![CDATA[label]]></Name>
+                                                        <Value><![CDATA[Выход]]></Value>
+                                                    </Property>
+                                                </Properties>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>Button</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <Descriptive>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Java.Window</Type>
+                                                            <Name><![CDATA[Физические лица]]></Name>
+                                                            <IconKey>Window</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.Dialog</Type>
+                                                            <Name><![CDATA[Карточка регистрации]]></Name>
+                                                            <IconKey>Dialog</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.Button</Type>
+                                                            <Name><![CDATA[Выход]]></Name>
+                                                            <IconKey>Button</IconKey>
+                                                        </Object>
+                                                    </Path>
+                                                </TestObject>
+                                            </Descriptive>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                            </ReportNode>
+                            <ReportNode type="Step">
+                                <Data>
+                                    <Name><![CDATA[JavaMenu.selectSubMenu]]></Name>
+                                    <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;&#1042;&#1099;&#1081;&#1090;&#1080;&quot;</td></tr></table>]]></Description>
+                                    <StartTime>2020-09-08 13:47:46</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>1</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Java.Window</Type>
+                                                        <Name><![CDATA[АСУ ЕИРЦ: ЦАО-Т (Тест ЭМ) Веблоджик (Основной сервер)]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Menu</Type>
+                                                        <Name><![CDATA[Приложение]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Menu</Type>
+                                                        <Name><![CDATA[JavaMenu]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation>selectSubMenu</Operation>
+                                                <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;&#1042;&#1099;&#1081;&#1090;&#1080;&quot;</td></tr></table>]]></OperationData>
+                                                <Properties>
+                                                    <Property>
+                                                        <Name><![CDATA[label]]></Name>
+                                                        <Value><![CDATA[Приложение]]></Value>
+                                                    </Property>
+                                                </Properties>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>Menu</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <Descriptive>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Java.Window</Type>
+                                                            <Name><![CDATA[АСУ ЕИРЦ: ЦАО-Т (Тест ЭМ) Веблоджик (Основной сервер)]]></Name>
+                                                            <IconKey>Window</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.Menu</Type>
+                                                            <Name><![CDATA[Приложение]]></Name>
+                                                            <IconKey>Menu</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.Menu</Type>
+                                                            <Name><![CDATA[JavaMenu]]></Name>
+                                                            <IconKey>Menu</IconKey>
+                                                        </Object>
+                                                    </Path>
+                                                </TestObject>
+                                            </Descriptive>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                            </ReportNode>
+                            <ReportNode type="Step">
+                                <Data>
+                                    <Name><![CDATA[Да.click]]></Name>
+                                    <Description/>
+                                    <StartTime>2020-09-08 13:47:46</StartTime>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Duration>1</Duration>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Java.Window</Type>
+                                                        <Name><![CDATA[АСУ ЕИРЦ: ЦАО-Т (Тест ЭМ) Веблоджик (Основной сервер)]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Dialog</Type>
+                                                        <Name><![CDATA[Подтверждение отключения]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Java.Button</Type>
+                                                        <Name><![CDATA[Да]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation>click</Operation>
+                                                <OperationData/>
+                                                <Properties>
+                                                    <Property>
+                                                        <Name><![CDATA[label]]></Name>
+                                                        <Value><![CDATA[Да]]></Value>
+                                                    </Property>
+                                                </Properties>
+                                            </TestObject>
+                                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                                            <IconKey>Button</IconKey>
+                                            <CustomUIElements>
+                                                <DescriptionLabel>Data</DescriptionLabel>
+                                            </CustomUIElements>
+                                            <Descriptive>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Java.Window</Type>
+                                                            <Name><![CDATA[АСУ ЕИРЦ: ЦАО-Т (Тест ЭМ) Веблоджик (Основной сервер)]]></Name>
+                                                            <IconKey>Window</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.Dialog</Type>
+                                                            <Name><![CDATA[Подтверждение отключения]]></Name>
+                                                            <IconKey>Dialog</IconKey>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Java.Button</Type>
+                                                            <Name><![CDATA[Да]]></Name>
+                                                            <IconKey>Button</IconKey>
+                                                        </Object>
+                                                    </Path>
+                                                </TestObject>
+                                            </Descriptive>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                            </ReportNode>
+                        </ReportNode>
+                    </ReportNode>
+                </ReportNode>
+            </ReportNode>
+        </ReportNode>
+    </ReportNode>
+</Results>
